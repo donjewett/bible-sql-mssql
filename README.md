@@ -1,4 +1,4 @@
-# bible-sql
+# bible-sql-mssql
 Bible database for SQL Server
 
 ## Flavors ##
