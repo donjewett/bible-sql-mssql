@@ -15,7 +15,7 @@ BEGIN TRANSACTION;
 DECLARE @BibleCode varchar(16) = 'MSB'
 
 EXEC add_Version @code='MSB', @name='Majority Standard Bible', @lang='eng', @year=2022, @hebrew='MAS', @greek='BYZ', @license=6
-EXEC add_Bible @code=@BibleCode, @name='Majority Standard Bible', @sub=NULL, @version='MSB', @year=2022, @sourceUrl='https://majoritybible.com/msb.txt'
+EXEC add_Bible @code=@BibleCode, @name='Majority Standard Bible', @sub=NULL, @version='MSB', @year=2022, @sourceUrl='https://majoritybible.com/msb.txt'
 EXEC add_VersionNote @version='MSB', @bible=@BibleCode, @label='copyright', @note=N'The Holy Bible, Majority Standard Bible, MSB is produced in cooperation with Bible Hub, Discovery Bible, unfoldingWord, Bible Aquifer, OpenBible.com, and the Berean Bible Translation Committee. 	
 This text of God''s Word has been dedicated to the public domain. Free resources and databases are available at MajorityBible.com.'
 
