@@ -3,7 +3,7 @@ Bible Database: SQL Server, by Don Jewett
 https://github.com/donjewett/bible-sql-mssql
 
 bible-110-webus.sql
-Version: 2026.4.14
+Version: 2026.4.16
 
 Original Source: https://ebible.org/find/show.php?id=eng-web
 
@@ -15,9 +15,9 @@ BEGIN TRANSACTION;
 DECLARE @BibleCode varchar(16) = 'WEBUS'
 
 EXEC add_Version @code='WEB', @name='World English Bible Classic', @lang='eng', @year=2000, @hebrew='MAS', @greek='BYZ', @license=1, @level=11.00
-EXEC add_Revision @code='WEB2020', @version='WEB', @year=2020, @sub='2020 stable text edition'
+EXEC add_Revision @code='WEB2020', @version='WEBUS', @year=2020, @sub='2020 stable text edition'
 EXEC add_Bible @code=@BibleCode, @name='World English Bible Classic', @sub=NULL, @version='WEBUS', @year=2020, @revision='WEB2020', @sourceUrl='https://ebible.org/find/show.php?id=eng-web'
-EXEC add_VersionNote @version='WEB', @bible=@BibleCode, @label='copyright', @note=N'The World English Bible is in the Public Domain. That means that it is not copyrighted. However, "World English Bible" is a Trademark of eBible.org.
+EXEC add_VersionNote @version='WEBUS', @bible=@BibleCode, @label='copyright', @note=N'The World English Bible is in the Public Domain. That means that it is not copyrighted. However, "World English Bible" is a Trademark of eBible.org.
 
 You may copy, publish, proclaim, distribute, redistribute, sell, give away, quote, memorize, read publicly, broadcast, transmit, share, back up, post on the Internet, print, reproduce, preach, teach from, and use the World English Bible as much as you want, and others may also do so. All we ask is that if you CHANGE the actual text of the World English Bible in any way, you not call the result the World English Bible any more. This is to avoid confusion, not to limit your freedom. The Holy Bible is God''s Word. It belongs to God. He gave it to us freely, and we who have worked on this translation freely give it to you by dedicating it to the Public Domain.
 
