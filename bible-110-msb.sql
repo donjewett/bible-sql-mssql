@@ -3,7 +3,7 @@ Bible Database: SQL Server, by Don Jewett
 https://github.com/donjewett/bible-sql-mssql
 
 bible-110-msb.sql
-Version: 2026.4.14
+Version: 2026.4.16
 
 Original Source: https://ebible.org/find/show.php?id=eng-web
 
