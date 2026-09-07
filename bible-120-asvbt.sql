@@ -1,12 +1,15 @@
 /***************************************************************************
-* bible-120-asvbt.sql
-*
-* Version: 2026.5.15
-* 
-* Module: American Standard Version Byzantine Text
-*
-* Original Source: https://ebible.org/find/show.php?id=engasvbt
-*
+Bible Database: SQL Server, by Don Jewett
+https://github.com/donjewett/bible-sql-mssql
+
+bible-120-asvbt.sql
+
+Version: 2026.5.15
+ 
+Module: American Standard Version Byzantine Text
+
+Original Source: https://ebible.org/find/show.php?id=engasvbt
+
 ***************************************************************************/
 
 BEGIN TRANSACTION;
